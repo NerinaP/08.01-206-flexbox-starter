@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #ffcccc;
   height: 100%;
   width: 100%;
 }
@@ -105,51 +105,75 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
-  height: 100%;
   color: #fff;
-}
-
-header,
-footer {
-  background-color: #222;
-  height: 80px;
-  width: 100%;
- 
-}
-
-main {
-  background-color: #ccc;
-  height: 250px;
-  width: 100%;
-
-}
-
-header,
-footer,
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  
 }
 
 .flex-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    max-width: 1200px;
     flex-flow: row wrap;
 }
 
+p span {
+    font-family: 'Lora', serif;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 3em;
+}
+
+main {
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+  
+
+}
+
+main p {
+    font-size: 1.35em;
+}
+
+
 .flex-items {
-  color: #fff;
+  
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+  font-size: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 30%;
+ 
+}
+
+#div-2 p {
+    border-left: 0.75px solid #fff;
+    border-right: 0.75px solid #fff;
+    padding: 0 40px;
+}
+
+
+footer {
+    border-top: 1px solid #fff;
+}
+
+footer i {
+    padding: 30px 20px 0 0;
 }
 
 /* ==========================================================================
